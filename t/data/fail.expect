@@ -1,0 +1,8 @@
+[97mFeature: fail
+[0m[97m  In order to know about failure conditions
+[0m[97m  As a tester
+[0m[97m  I want to be able to see errors
+[0m[92m  Scenario: failure[0m
+[91m    Given FAIL[0m[37m                  # t/format.t:24[0m
+[96m    When I receive the output[0m[37m   # t/format.t:20[0m
+[96m    Then it is formatted nicely[0m[37m # t/format.t:22[0m

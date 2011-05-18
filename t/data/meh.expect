@@ -1,0 +1,8 @@
+[97mFeature: meh
+[0m[97m  In order to test the formatter
+[0m[97m  As the tester
+[0m[97m  I want to see cucumber formatted output
+[0m[92m  Scenario: passing test[0m
+[92m    Given A test[0m[37m                # t/format.t:18[0m
+[92m    When I receive the output[0m[37m   # t/format.t:20[0m
+[92m    Then it is formatted nicely[0m[37m # t/format.t:22[0m
