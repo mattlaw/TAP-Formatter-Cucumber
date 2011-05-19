@@ -38,12 +38,11 @@ Red. Used for failing tests and related diagnostics. i.e. TAP 'not ok'
 
 =item skipped
 
-Cyan. Used for TAP skip messages
+Cyan. Used for TAP C<SKIP> messages
 
 =item pending
 
-Yellow. Used for TAP TODO tests, not supported by L<Test::Cukes> at time of
-writing.
+Yellow. Used for TAP C<TODO> tests.
 
 =item comment
 

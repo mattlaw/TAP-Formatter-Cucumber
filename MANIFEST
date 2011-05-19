@@ -1,12 +1,14 @@
 Build.PL
 lib/TAP/Formatter/Cucumber.pm
 lib/TAP/Formatter/Cucumber/Session.pm
+Makefile.PL
 MANIFEST			This list of files
+META.json
+META.yml
 t/data/fail.expect
 t/data/fail.feature
 t/data/meh.expect
 t/data/meh.feature
+t/data/undef.expect
+t/data/undef.feature
 t/format.t
-Makefile.PL
-META.yml
-META.json

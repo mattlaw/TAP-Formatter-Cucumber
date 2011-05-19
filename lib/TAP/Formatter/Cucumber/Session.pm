@@ -35,8 +35,8 @@ my $cuke_test_re = qr{
     ^
     (?:not\s+)?
     ok\s+[0-9]+
-    \s*(?:-|(?i:\#\s*skip|todo))\s* # Description required
-    (?=Given|[WT]hen|And|But) # to begin with a Gherkin keyword
+    \s*(?:-|(?i:\#\s*(?:todo\s+\&\s+)?skip))\s*
+    (?=Given|[WT]hen|And|But)
 }x;
 
 sub result {
